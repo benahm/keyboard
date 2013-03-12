@@ -1,0 +1,189 @@
+.textboxbar,.typedboxbar {
+	position: absolute;
+	font-size: 30px;
+	font-family: cursive;
+	background: white;
+	margin-top: 23px;
+	padding: 5px;
+	letter-spacing: 2px;
+}
+
+.textboxbar {
+	left: 444px;
+	width: 550px;
+	border-left: 0px;
+	padding-left: 0;
+}
+
+.typedboxbar {
+	left: 70px;
+	width: 375px;
+	text-align: right;
+	padding-right: 0;
+}
+
+.hightlight {
+	position: absolute;
+	left:443px;
+	top:25px;
+	height: 52px;
+	width: 17px;
+	background-color: rgb(128, 0, 41);
+	z-index: 1;
+	opacity:0.3;
+}
+
+.inputbox {
+	position: relative;
+	font-size: 20px;
+	font-family: cursive;
+	width: 80%;
+	height: 50%;
+	margin-left: 10%;
+	margin-top: 23px;
+	padding: 5px;
+	-moz-box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.5);
+	box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.5);
+	margin-top: 23px;
+	margin-left: 10%;
+}
+
+.charbox {
+	position:absolute;
+	left:-500px;
+	width: 30px;
+	padding: 5px;
+	font-size: 20px;
+	font-family: cursive;
+	top: 10px; 
+	-moz-box-shadow : 0 0px 8px 0 rgba( 0, 0, 0, 0.5);
+	-webkit-box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.5);
+	box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.5);
+}
+
+.modal,.result {
+	position: fixed;
+	z-index: 1000;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background: #ffd;
+	background-image: -moz-linear-gradient(-90deg, #ffd 0%, #eee 100%);
+	background-image: -webkit-linear-gradient(-90deg, #ffd 0%, #eee 100%);
+	background-image: -o-linear-gradient(-90deg, #ffd 0%, #eee 100%);
+	background-image: -ms-linear-gradient(-90deg, #ffa 0%, #eee 100%);
+	background-image: linear-gradient(-90deg, #ffd 0%, #eee 100%);
+}
+
+.result {
+	display: none;
+}
+
+.displayResult {
+	display: none;
+	position: fixed;
+	z-index: 1000;
+	top: 100px;
+	left: 350px;
+	height: 50%;
+	width: 50%;
+	background: white;
+	-moz-box-shadow: 3px 3px 5px 6px #ccc;
+	-webkit-box-shadow: 3px 3px 5px 6px #ccc;
+	box-shadow: 3px 3px 5px 6px #ccc;
+}
+
+.displayResult div {
+	display: inline;
+}
+
+.displayResult ul {
+	list-style-type: none;
+	font-size: 30px;
+	padding: 30px;
+	margin: 20px;
+	margin-left: 150px;
+}
+
+.sideBar {
+	position: absolute;
+	left: 85%;
+	top: 1%;
+	font-size: 20px;
+	font-family: cursive;
+}
+
+.sideBar div {
+	display: inline;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+.start {
+	position: fixed;
+	z-index: 1000;
+	top: 60%;
+	left: 45%;
+	width: 90px;
+	height: 30px;
+}
+
+.default {
+	position: fixed;
+	z-index: 1000;
+	top: 70%;
+	left: 44%;
+	width: 120px;
+	height: 30px;
+}
+
+.links{
+	position:relative;
+	left:30px;
+	bottom: -75px;
+}
+
+.logo{
+	position:absolute;
+	width: 70px;
+	height: 65px;
+	left: -65px;
+	top: 10px;
+	background-color: white;
+	background-image: url('../img/logokeyboard.png');
+	
+}
+
+.back {
+	position: fixed;
+	z-index: 1000;
+	top: 70%;
+	left: 610px;
+	width: 120px;
+	height: 30px;
+}
+
+.rightHand,.leftHand {
+	display: none;
+}
+
+.hands .rightHand {
+	position: absolute;
+	width: 200px;
+	left: 89%;
+	top: 50%;
+}
+
+.hands .leftHand {
+	position: absolute;
+	width: 200px;
+	left: -11%;
+	top: 50%;
+}
