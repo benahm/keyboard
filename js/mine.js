@@ -110,8 +110,9 @@ function moveText(e) {
     var length = charbox.val().length;
     var miss, hit;
     var val;
-
-    if (text.substring(0, char.length) == char) {
+    var charFromText=text.substring(0, char.length);
+    var accentAigu=((charFromText==="’" || charFromText==="´") && char==="\'");
+    if (charFromText === char || accentAigu) {
         if (length) {
             textboxbar.val(text.substring(length));
             val = function() {
@@ -336,6 +337,7 @@ mapKeys = {
     "é": "two",
     "\"": "three",
     "\'": "four",
+    "’":"four",
     "(": "five",
     "-": "six",
     "è": "seven",
